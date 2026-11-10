@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Large ML Model artifacts (>100MB exceeds GitHub push limits; generated via train_and_cache.py)
+backend/models/*.joblib
+*.joblib
+
+# Firebase & Deployment logs
+firebase-debug.log*
+.firebase/
+
+# Local IDE & OS files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
